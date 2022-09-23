@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;900&family=Raleway:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <title>Hero section</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #444;
+        }
+
+        nav{
+            font-size: 20px;
+            font-weight: 700;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 32px;
+        }
+
+        .hero-container {
+            width: 1200px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .hero-container-inner {
+            width: 50%
+        }
+        h1{
+            font-size: 52px;
+            margin-bottom: 32px;
+
+            line-height: 1;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 1.6;
+            margin-bottom: 48px;
+        }
+
+        header {
+            height: 100vh;
+            position: relative;
+            background-image: linear-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6)), url(./hero.jpg);
+            background-size: cover;
+            color:#fff
+        }
+
+        .container {
+            margin: 0  auto;
+            width: 1200px
+        }
+
+        .btn:link,
+        .btn:visited {
+            font-size: 20px;
+            font-weight: 300;
+            background-color: #e67e22;
+            color: #fff;
+            text-decoration: none;
+
+            display: inline-block;
+            padding: 16px 32px;
+            border-radius: 9px;
+        }
+
+        h2 {
+            font-size: 42px;
+            margin-bottom: 48px;
+        }
+
+        section{
+            padding: 96px 0;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div>LOGO</div>
+            <div>Navigation</div>
+        </nav>
+        <div class="container hero-container">
+            <div class="hero-container-inner">
+                <h1>A healthy meal delivered to you Daily</h1>
+                <p>The Smart 265-per year food subscription that will make you eat heathy again, tailored to your personal taste</p>
+                <a href="#" class="btn">Start now</a>
+            </div>
+        </div>
+
+    </header>
+    <section>
+        <div class="container">
+            <h2>Come visit us</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In mollitia aliquid est autem ad nostrum sed quisquam, placeat nesciunt eveniet, possimus praesentium iusto. Aliquam error dolorem necessitatibus debitis accusamus mollitia?</p>
+        </div>
+    </section>
+</body>
+</html>
